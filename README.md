@@ -35,7 +35,7 @@ This is a simple e-commerce application built with React, Redux, React Query, Ty
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/shamimulhaque1992/simple-ecommerce.git
-   cd ecommerce-app
+   cd simple-ecommerce
    ```
 
 ### Install Dependencies
