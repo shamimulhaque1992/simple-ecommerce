@@ -19,9 +19,13 @@ const ProductCard: React.FC<ProductCardProps> = ({
 
   return (
     <div className="border p-4 rounded shadow">
+      {/* Product image */}
       <img src={image} alt={title} className="w-full h-48 object-cover mb-2" />
+      {/* Product title */}
       <h2 className="text-lg font-bold">{title}</h2>
+      {/* Product price */}
       <p>${price.toFixed(2)}</p>
+      {/* Add to cart button */}
       <button
         onClick={() =>
           dispatch(addToCart({ id, title, price, image, quantity: 1 }))
